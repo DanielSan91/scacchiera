@@ -1,0 +1,19 @@
+.row:not(last-of-type) div:first-of-type span:nth-child(1),
+.row:not(first-of-type) div:first-of-type span:nth-child(2) {
+    left: -20px;
+    top: 20px;
+}
+
+.row:not(last-of-type) div:last-of-type span {
+    right: -20px;
+    top: 20px;
+}
+
+.row:not(first-of-type) div:first-of-type span {
+    left: -20px;
+    top: 20px;
+}
+
+.row:not(first-of-type) div:last-of-type span {
+    right: -20px;
+    top: 20px;
