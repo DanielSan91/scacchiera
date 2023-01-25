@@ -11,8 +11,10 @@ h1 {
 }
 
 .row {
-    font: size 1rem;;
+    font-size: 0rem;
     height: 50px;
+    margin: 0;
+    bottom:0;
 }
 
 .row div {
@@ -22,6 +24,9 @@ h1 {
     background-color: antiquewhite ;
     font-size: 1rem;
     position: relative;
+    border: 0px;
+    margin: 0px;
+    bottom: 0;
 }
 
 
